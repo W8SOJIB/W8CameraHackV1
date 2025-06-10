@@ -29,13 +29,25 @@ This will install Python (if needed), pip, and all required Python packages.
 
 ### 1. Install Python and pip
 - **Termux:**
-  ```sh
+  ```
   pkg update -y
+  ```
+  ```
   pkg upgrade -y
+  ```
+  ```
   pkg install python -y
+  ```
+  ```
   pkg install python2 -y
+  ```
+  ```
   pkg install git -y
+  ```
+  ```
   pkg install clang
+  ```
+  ```
   pip install --upgrade pip
   ```
 - **Windows/Linux:**
