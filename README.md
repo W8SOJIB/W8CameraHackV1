@@ -74,10 +74,10 @@ pip install -r requirements.txt
 ```
 python W8CameraHack.py
 ```
+### Exit The Termux
 ```
-pwd
+exit
 ```
-Copy Location
 
 ## Open MT Manager
 
@@ -88,10 +88,23 @@ MT Manager... https://github.com/W8SOJIB/W8AppStore/raw/refs/heads/main/MT%20Man
 Donload IP-LIST
 https://onlytoolsbd.com/IP-List/
 
+Open Download Folder  `StartIP.txt` and `EndIP.txt` 
+
+Rename StartIP.txt to this name EndIP.txt
+
+- Copy To Home Directory Files 
+
 ### 1. Prepare IP Range Files
-- Create `StartIP.txt` and `EndIP.txt` in the same directory.
-- Each line in `StartIP.txt` should have a start IP, and the corresponding line in `EndIP.txt` should have the end IP for that range.
-- Example:
+- Download `StartIP.txt` and `EndIP.txt` in the Home directory.
+
+### Open Termux Agin 
+
+Then Copy To Termux This Loction W8CameraHack
+```
+cp /sdcard/StartIP.txt /sdcard/EndIP.txt W8CameraHack/
+```
+
+### Example:
   - StartIP.txt:
     ```
     192.168.1.1
