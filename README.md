@@ -38,7 +38,7 @@ This will install Python (if needed), pip, and all required Python packages.
   Download and install Python from [python.org](https://www.python.org/downloads/).
 
 ### 2. Download the script
-Place `W8IPCameraHK - Copy.py` or `W8CameraHack.py` in your working directory.
+Place `W8CameraHack.py` in your working directory.
 
 ### 3. Install dependencies
 ```sh
@@ -71,14 +71,11 @@ bash setup.sh
 ### 3. Run the Script
 You can run either script (they are functionally equivalent):
 ```sh
-python W8IPCameraHK\ -\ Copy.py
-# or
 python W8CameraHack.py
+
 ```
 - On Termux, you may need to use:
   ```sh
-  python W8IPCameraHK\ -\ Copy.py
-  # or
   python W8CameraHack.py
   ```
 
