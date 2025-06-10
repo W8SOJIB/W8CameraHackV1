@@ -42,12 +42,22 @@ This will install Python (if needed), pip, and all required Python packages.
   Download and install Python from [python.org](https://www.python.org/downloads/).
 
 ### 2. Download the script
-Place `W8CameraHack.py` in your working directory.
-
+`
+git clone https://github.com/W8SOJIB/W8CameraHack
+`
+`
+cd W8CameraHack
+`
+`
+ls
+`
 ### 3. Install dependencies
 ```sh
 pip install -r requirements.txt
 ```
+`
+python W8CameraHack.py
+`
 
 ## Usage
 
