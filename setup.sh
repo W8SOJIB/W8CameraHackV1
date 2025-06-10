@@ -2,14 +2,28 @@
 
 # W8IPCameraHK Auto Setup Script
 # Supports Termux (Android) and Linux
+#
+# Manual Termux install commands (if you want to run them individually):
+# pkg update
+# apt update -y                      # update in progress
+# apt install python -y
+# apt install python2 -y
+# apt install git -y
+# pkg install clang
+# pip install --upgrade pip
 
 echo "[+] Starting setup..."
 
 # Detect Termux
 if [ -n "$PREFIX" ] && [ -x "$(command -v pkg)" ]; then
     echo "[+] Detected Termux. Installing dependencies with pkg..."
-    pkg update -y
-    pkg install -y python clang
+    pkg update
+    apt update -y                      # update in progress
+    apt install python -y
+    apt install python2 -y
+    apt install git -y
+    pkg install clang
+    pip install --upgrade pip
 else
     echo "[+] Assuming Linux. Installing dependencies with apt..."
     sudo apt update
