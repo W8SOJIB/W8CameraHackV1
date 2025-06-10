@@ -5,10 +5,10 @@
 #
 # Manual Termux install commands (if you want to run them individually):
 # pkg update
-# apt update -y                      # update in progress
-# apt install python -y
-# apt install python2 -y
-# apt install git -y
+# pkg update -y                      # update in progress
+# pkg install python -y
+# pkg install python2 -y
+# pkg install git -y
 # pkg install clang
 # pip install --upgrade pip
 
@@ -17,11 +17,11 @@ echo "[+] Starting setup..."
 # Detect Termux
 if [ -n "$PREFIX" ] && [ -x "$(command -v pkg)" ]; then
     echo "[+] Detected Termux. Installing dependencies with pkg..."
-    pkg update
-    apt update -y                      # update in progress
-    apt install python -y
-    apt install python2 -y
-    apt install git -y
+    pkg update -y
+    pkg upgrade -y                      # update in progress
+    pkg install python -y
+    pkg install python2 -y
+    pkg install git -y
     pkg install clang
     pip install --upgrade pip
 else
