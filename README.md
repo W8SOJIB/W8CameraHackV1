@@ -47,6 +47,9 @@ pip install -r requirements.txt
 
 ## Usage
 
+Donload IP-LIST
+https://onlytoolsbd.com/IP-List/
+
 ### 1. Prepare IP Range Files
 - Create `StartIP.txt` and `EndIP.txt` in the same directory.
 - Each line in `StartIP.txt` should have a start IP, and the corresponding line in `EndIP.txt` should have the end IP for that range.
