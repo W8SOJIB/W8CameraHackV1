@@ -74,6 +74,9 @@ pip install -r requirements.txt
 ```
 python W8CameraHack.py
 ```
+```
+pwd
+```
 
 ## Usage
 
