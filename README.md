@@ -77,6 +77,11 @@ python W8CameraHack.py
 ```
 pwd
 ```
+Copy Location
+
+## Open MT Manager
+
+MT Manager... https://github.com/W8SOJIB/W8AppStore/raw/refs/heads/main/MT%20Manager_2.13.1.apk
 
 ## Usage
 
