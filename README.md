@@ -1,5 +1,7 @@
 # W8IPCameraHK - Camera Scanner
 
+[GitHub Repository](https://github.com/W8SOJIB/W8CameraHack)
+
 A fast, multi-threaded IP camera scanner with banner grabbing and device fingerprinting. Supports Windows, Linux, and Termux (Android).
 
 ## Features
@@ -14,7 +16,16 @@ A fast, multi-threaded IP camera scanner with banner grabbing and device fingerp
 - Python 3.7+
 - pip (Python package manager)
 
-## Installation
+## Auto Install
+You can use the provided setup script for automatic installation of dependencies:
+
+```sh
+bash setup.sh
+```
+
+This will install Python (if needed), pip, and all required Python packages.
+
+## Manual Installation
 
 ### 1. Install Python and pip
 - **Termux:**
@@ -27,7 +38,7 @@ A fast, multi-threaded IP camera scanner with banner grabbing and device fingerp
   Download and install Python from [python.org](https://www.python.org/downloads/).
 
 ### 2. Download the script
-Place `W8IPCameraHK - Copy.py` in your working directory.
+Place `W8IPCameraHK - Copy.py` or `W8CameraHack.py` in your working directory.
 
 ### 3. Install dependencies
 ```sh
@@ -51,22 +62,33 @@ pip install -r requirements.txt
     10.0.0.255
     ```
 
-### 2. Run the Script
+### 2. Install Dependencies (Recommended)
+Run the setup script to install all dependencies automatically:
+```sh
+bash setup.sh
+```
+
+### 3. Run the Script
+You can run either script (they are functionally equivalent):
 ```sh
 python W8IPCameraHK\ -\ Copy.py
+# or
+python W8CameraHack.py
 ```
 - On Termux, you may need to use:
   ```sh
   python W8IPCameraHK\ -\ Copy.py
+  # or
+  python W8CameraHack.py
   ```
 
-### 3. Set Max Threads
+### 4. Set Max Threads
 - When prompted, enter the number of threads (e.g., 300 for fast scan, or lower for low-power devices).
 
-### 4. Select Scan Mode
+### 5. Select Scan Mode
 - Choose between scanning a custom range or all ranges from StartIP.txt/EndIP.txt.
 
-### 5. View Results
+### 6. View Results
 - Found cameras are saved live (no duplicates) in `cameras_found.txt`.
 - Each entry includes the camera URL and, if detected, the brand.
 
