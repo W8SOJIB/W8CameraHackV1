@@ -46,30 +46,19 @@ Altanitive.. https://gofile.io/d/fr8rOB
 ```
 pkg update && pkg upgrade
 ```
-```
 # Install required packages
-```
 ```
 pkg install python git
 ```
 ```
 pkg install git -y
 ```
-```
-```
+
 # Install Python dependencies
-```
-```
 ```
 pip install requests aiohttp pyfiglet
 ```
-```
-git clone https://github.com/W8SOJIB/W8CameraHackV1
-```
-```
-```
 # Optional: For colors (if colorama install fails, the script works without it)
-
 
 ```
 pip install colorama
@@ -82,7 +71,13 @@ pip install colorama
 pip install requests aiohttp pyfiglet colorama
 ```
 ## Usage
-Run the script:
+Run and clone the script:
+```
+git clone https://github.com/W8SOJIB/W8CameraHackV1
+```
+```
+cd W8CameraHackV1
+```
 ```
 python W8CameraHackV1.py
 ```
@@ -190,6 +185,7 @@ This tool is for educational and authorized security testing purposes only. Alwa
 Made with ❤️ by [W8Team/W8SOJIB](https://github.com/W8SOJIB)
 
 </div>
+
 
 
 
