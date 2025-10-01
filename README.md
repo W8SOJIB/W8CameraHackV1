@@ -56,13 +56,18 @@ pkg install python git
 pkg install git -y
 ```
 ```
-
+```
 # Install Python dependencies
+```
 ```
 ```
 pip install requests aiohttp pyfiglet
 ```
-
+```
+git clone https://github.com/W8SOJIB/W8CameraHackV1
+```
+```
+```
 # Optional: For colors (if colorama install fails, the script works without it)
 
 
@@ -185,6 +190,7 @@ This tool is for educational and authorized security testing purposes only. Alwa
 Made with ❤️ by [W8Team/W8SOJIB](https://github.com/W8SOJIB)
 
 </div>
+
 
 
 
