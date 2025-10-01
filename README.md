@@ -35,33 +35,47 @@ A powerful tool that combines IP range collection and camera scanning functional
 
 ### For Termux (Android)
 
-```bash
 # Update packages
-pkg update && pkg upgrade
 
+```
+pkg update && pkg upgrade
+```
+```
 # Install required packages
+```
+```
 pkg install python git
+```
+```
+pkg install git -y
+```
+```
 
 # Install Python dependencies
+```
+```
 pip install requests aiohttp pyfiglet
+```
 
 # Optional: For colors (if colorama install fails, the script works without it)
+
+
+```
 pip install colorama
 ```
-
 ### For Desktop (Windows/Linux/Mac)
 
-```bash
 # Install Python dependencies
+
+```
 pip install requests aiohttp pyfiglet colorama
 ```
-
 ## Usage
-
 Run the script:
-```bash
-python camera_scanner.py
 ```
+python W8CameraHackV1.py
+```
+
 
 ### Menu Options
 
@@ -165,4 +179,5 @@ This tool is for educational and authorized security testing purposes only. Alwa
 Made with ❤️ by [W8Team/W8SOJIB](https://github.com/W8SOJIB)
 
 </div>
+
 
