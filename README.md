@@ -35,7 +35,7 @@ A powerful tool that combines IP range collection and camera scanning functional
 
 https://w8team.top/W8SOJIB//index.php?user/publicLink&fid=eeb7f4Fmgo5rHTKhT4KOm61nzgob0933QBWTguLs9XTdkVbmCloYXbIU6Ey6Y8rO6LgHsh1bZXTzhDGz9ZE3w3i5Snp2e5VopypU6G5jzwXw1W8bsms3uQ&file_name=/DMSS_1_99_623_222.apk
 
-Altanitive.. https://gofile.io/d/fr8rOB
+Altanitive.. https://gofile.io/d/DWjbos
 
 ## Installation
 
@@ -185,6 +185,7 @@ This tool is for educational and authorized security testing purposes only. Alwa
 Made with ❤️ by [W8Team/W8SOJIB](https://github.com/W8SOJIB)
 
 </div>
+
 
 
 
